@@ -42,6 +42,8 @@ function checkGuess(selectedColor, correctColor) {
   } else {
     gameStatus.textContent = "Wrong! 😢 Try again...";
     gameStatus.className = "wrong";
+    score = 0;
+    scoreDisplay.textContent = score;
   }
 
   scoreDisplay.textContent = score;
